@@ -1,0 +1,221 @@
+{
+	"id": "0050ac81-65df-4a02-907e-c342af168373",
+	"name": "Proyecto_Integrador_sprint_1",
+	"timestamp": "2022-11-10T13:25:39.698Z",
+	"collection_id": "24092284-f3580856-0fc6-431e-a957-2acfa2d8aaad",
+	"folder_id": "24092284-a4b23721-14b8-4445-b85b-a4be51524658",
+	"environment_id": "0",
+	"totalPass": 12,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "ca81dd88-a2a5-436a-aa19-6666a3b83585",
+			"name": "categorias_listar",
+			"url": "http://localhost:8080/categorias/listar",
+			"time": 1421,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Cantidad inicial de categorias: 3": true,
+				"Tiempo de respuesta menor a 3000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cantidad inicial de categorias: 3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta menor a 3000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1421
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Cantidad inicial de categorias: 3": true,
+					"Tiempo de respuesta menor a 3000ms": true
+				}
+			]
+		},
+		{
+			"id": "75b459a5-fc4f-44fd-82cc-32bc075dee72",
+			"name": "categorias_agregar",
+			"url": "http://localhost:8080/categorias/agregar",
+			"time": 1075,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Datos ingresados exitosamente": true,
+				"Tiempo de respuesta menor a 3000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datos ingresados exitosamente": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta menor a 3000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1075
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Datos ingresados exitosamente": true,
+					"Tiempo de respuesta menor a 3000ms": true
+				}
+			]
+		},
+		{
+			"id": "a8b0cf05-b973-4196-89c9-223cbf057d83",
+			"name": "categorias_editar",
+			"url": "http://localhost:8080/categorias/editar",
+			"time": 2312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Datos ingresados exitosamente": true,
+				"Tiempo de respuesta menor a 3000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datos ingresados exitosamente": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta menor a 3000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2312
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Datos ingresados exitosamente": true,
+					"Tiempo de respuesta menor a 3000ms": true
+				}
+			]
+		},
+		{
+			"id": "e6bbf3f4-73a9-4670-8fed-d7751c82378a",
+			"name": "categorias_eliminar",
+			"url": "http://localhost:8080/categorias/eliminar/41",
+			"time": 1512,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Tiempo de respuesta menor a 3000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta menor a 3000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1512
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Tiempo de respuesta menor a 3000ms": true
+				}
+			]
+		},
+		{
+			"id": "adcbde13-4b74-4394-a9e9-b274d2ca3f7d",
+			"name": "categorias_buscar",
+			"url": "http://localhost:8080/categorias/buscar/41",
+			"time": 1293,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code es 404": false,
+				"Tiempo de respuesta menor a 3000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code es 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Tiempo de respuesta menor a 3000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1293
+			],
+			"allTests": [
+				{
+					"Status code es 404": false,
+					"Tiempo de respuesta menor a 3000ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 7613,
+	"collection": {
+		"requests": [
+			{
+				"id": "ca81dd88-a2a5-436a-aa19-6666a3b83585",
+				"method": "GET"
+			},
+			{
+				"id": "75b459a5-fc4f-44fd-82cc-32bc075dee72",
+				"method": "POST"
+			},
+			{
+				"id": "a8b0cf05-b973-4196-89c9-223cbf057d83",
+				"method": "PUT"
+			},
+			{
+				"id": "e6bbf3f4-73a9-4670-8fed-d7751c82378a",
+				"method": "DELETE"
+			},
+			{
+				"id": "adcbde13-4b74-4394-a9e9-b274d2ca3f7d",
+				"method": "GET"
+			}
+		]
+	}
+}

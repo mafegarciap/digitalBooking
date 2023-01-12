@@ -1,0 +1,990 @@
+{
+	"id": "d4979ce4-3a06-4fc6-afcb-413315a97f45",
+	"name": "Proyecto_hoteles_sprint2",
+	"timestamp": "2022-12-13T03:05:09.800Z",
+	"collection_id": "24092284-5dddc6fd-c410-44f8-8580-c70ee5b36ef4",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 61,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "27ebebb4-33db-4238-9db5-5453f6392e56",
+			"name": "List all categories",
+			"url": "http://localhost:8080/categories/list",
+			"time": 131,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Cantidad inicial de categorias: 4": true,
+				"Validación propiedades de Hotel": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cantidad inicial de categorias: 4": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validación propiedades de Hotel": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				131
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Cantidad inicial de categorias: 4": true,
+					"Validación propiedades de Hotel": true
+				}
+			]
+		},
+		{
+			"id": "2ea3e662-9f5b-4620-a502-f866b0e0c3e3",
+			"name": "Save category",
+			"url": "http://localhost:8080/categories/save",
+			"time": 504,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Datos ingresados exitosamente": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datos ingresados exitosamente": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				504
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Datos ingresados exitosamente": true
+				}
+			]
+		},
+		{
+			"id": "538ff722-4976-4461-bbd7-838c848525c8",
+			"name": "Get categories by id",
+			"url": "http://localhost:8080/categories/get/1",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"La primera categoría es Hostel": true,
+				"Validando id categoría": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"La primera categoría es Hostel": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validando id categoría": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"La primera categoría es Hostel": true,
+					"Validando id categoría": true
+				}
+			]
+		},
+		{
+			"id": "0640df2b-f5fc-4971-bba6-d6365cb8ea06",
+			"name": "List all products",
+			"url": "http://localhost:8080/products/list",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Verficación de producto id 1": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verficación de producto id 1": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Verficación de producto id 1": true
+				}
+			]
+		},
+		{
+			"id": "ae2764b4-1508-442f-b994-c4af49e7e05b",
+			"name": "Get product by id",
+			"url": "http://localhost:8080/products/get/1",
+			"time": 16,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Validación datos ingresados id 1": true,
+				"Validando id producto": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validación datos ingresados id 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validando id producto": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Validación datos ingresados id 1": true,
+					"Validando id producto": true
+				}
+			]
+		},
+		{
+			"id": "3e455a41-f530-4073-87ff-9c375a1236a2",
+			"name": "Save product",
+			"url": "http://localhost:8080/products/save",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Datos ingresados exitosamente": true,
+				"Mismas propiedades": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datos ingresados exitosamente": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Mismas propiedades": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				123
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Datos ingresados exitosamente": true,
+					"Mismas propiedades": true
+				}
+			]
+		},
+		{
+			"id": "e59940dc-d7c3-4c0a-98a7-efd0b3b37342",
+			"name": "Update product",
+			"url": "http://localhost:8080/products/update",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"El título ha sido modificado": true,
+				"Validación de las propiedades modificadas": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"El título ha sido modificado": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validación de las propiedades modificadas": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"El título ha sido modificado": true,
+					"Validación de las propiedades modificadas": true
+				}
+			]
+		},
+		{
+			"id": "7842d5d4-fbb7-493d-a08e-0c6e621a27f4",
+			"name": "Delete product",
+			"url": "http://localhost:8080/products/delete/12",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code es 200": true
+				}
+			]
+		},
+		{
+			"id": "f10294bd-f5cc-419a-8dcc-007d70e5f46c",
+			"name": "Get product by id category",
+			"url": "http://localhost:8080/products/category/2",
+			"time": 16,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"El producto tiene category": true,
+				"La categoria de producto tiene title ingresado": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"El producto tiene category": {
+					"pass": 1,
+					"fail": 0
+				},
+				"La categoria de producto tiene title ingresado": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"El producto tiene category": true,
+					"La categoria de producto tiene title ingresado": true
+				}
+			]
+		},
+		{
+			"id": "ecc349a1-b7ef-48f7-8899-2a74ccf7520c",
+			"name": "Get product by id city",
+			"url": "http://localhost:8080/products/city/2",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"El producto tiene ciudad ": true,
+				"La ciudad del producto tiene nombre ": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"El producto tiene ciudad ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"La ciudad del producto tiene nombre ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				27
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"El producto tiene ciudad ": true,
+					"La ciudad del producto tiene nombre ": true
+				}
+			]
+		},
+		{
+			"id": "e594a7e9-59ab-4ed3-8a94-7ba7f00347c3",
+			"name": "List all images",
+			"url": "http://localhost:8080/images/list",
+			"time": 67,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Cantidad inicial de imágenes: 136": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cantidad inicial de imágenes: 136": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				67
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Cantidad inicial de imágenes: 136": true
+				}
+			]
+		},
+		{
+			"id": "3afe84dd-fcaa-4268-aa82-6f29ce920704",
+			"name": "Get Image By Id",
+			"url": "http://localhost:8080/images/get/1",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Imagen tiene id": true,
+				"Imagen tiene propiedad url": true,
+				"Imagen tiene url": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Imagen tiene id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Imagen tiene propiedad url": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Imagen tiene url": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Imagen tiene id": true,
+					"Imagen tiene propiedad url": true,
+					"Imagen tiene url": true
+				}
+			]
+		},
+		{
+			"id": "ed6a91bf-84a0-4c93-822e-7732b013c62c",
+			"name": "Save Image",
+			"url": "http://localhost:8080/images/save",
+			"time": 142,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code es 200": false,
+				"El id de la imagen nueva es 136": true,
+				"Imagen tiene todas las propiedades": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"El id de la imagen nueva es 136": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Imagen tiene todas las propiedades": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				142
+			],
+			"allTests": [
+				{
+					"Status code es 200": false,
+					"El id de la imagen nueva es 136": true,
+					"Imagen tiene todas las propiedades": true
+				}
+			]
+		},
+		{
+			"id": "62a22eae-20be-4c9b-895e-00382306df36",
+			"name": "List all countries",
+			"url": "http://localhost:8080/countries/list",
+			"time": 15,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Cantidad inicial de imágenes: 11": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cantidad inicial de imágenes: 11": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Cantidad inicial de imágenes: 11": true
+				}
+			]
+		},
+		{
+			"id": "ec7d20d5-74de-4397-9d9d-cfa4935c2eed",
+			"name": "Get country by id",
+			"url": "http://localhost:8080/countries/get/1",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Country tiene id": true,
+				"Country tiene nombre": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Country tiene id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Country tiene nombre": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Country tiene id": true,
+					"Country tiene nombre": true
+				}
+			]
+		},
+		{
+			"id": "70e3b909-91ca-42f7-9eb8-568fb0de177d",
+			"name": "List all cities",
+			"url": "http://localhost:8080/cities/list",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Cantidad inicial de ciudades: 14": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cantidad inicial de ciudades: 14": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Cantidad inicial de ciudades: 14": true
+				}
+			]
+		},
+		{
+			"id": "c40a5631-f8a7-4241-96ad-d0ef898ddeb7",
+			"name": "Get city by id",
+			"url": "http://localhost:8080/cities/get/1",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Ciudad tiene todas las propiedades": true,
+				"Ciudad tiene datos ingresados": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Ciudad tiene todas las propiedades": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Ciudad tiene datos ingresados": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Ciudad tiene todas las propiedades": true,
+					"Ciudad tiene datos ingresados": true
+				}
+			]
+		},
+		{
+			"id": "e7ec8adb-2c36-4433-a6da-f9b1b23b5704",
+			"name": "Save city",
+			"url": "http://localhost:8080/cities/save",
+			"time": 86,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Nueva ciudad agregada": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Nueva ciudad agregada": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				86
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Nueva ciudad agregada": true
+				}
+			]
+		},
+		{
+			"id": "a798e2b0-30c6-418c-afe2-a2b989ba6906",
+			"name": "List all characteristics",
+			"url": "http://localhost:8080/characteristics/list",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Cantidad inicial de caracteristicas: 10": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cantidad inicial de caracteristicas: 10": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Cantidad inicial de caracteristicas: 10": true
+				}
+			]
+		},
+		{
+			"id": "93c7f66e-05aa-4d3f-8f51-df31692af67f",
+			"name": "Get characteristic by id",
+			"url": "http://localhost:8080/characteristics/get/2",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Caracteristica tiene nombre ingresado": true,
+				"Caracteristica tiene todas las propiedades": true,
+				"Caracteristica tiene datos ingresados": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Caracteristica tiene nombre ingresado": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Caracteristica tiene todas las propiedades": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Caracteristica tiene datos ingresados": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Caracteristica tiene nombre ingresado": true,
+					"Caracteristica tiene todas las propiedades": true,
+					"Caracteristica tiene datos ingresados": true
+				}
+			]
+		},
+		{
+			"id": "6139b515-0b80-486a-8e95-0f9944b23fad",
+			"name": "Save characteristic",
+			"url": "http://localhost:8080/characteristics/save",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Caracteristica nueva tiene datos ingresados": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Caracteristica nueva tiene datos ingresados": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				90
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Caracteristica nueva tiene datos ingresados": true
+				}
+			]
+		},
+		{
+			"id": "a3c5aabe-ada7-4116-842a-f398910789e9",
+			"name": "List all policies",
+			"url": "http://localhost:8080/policies/list",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Cantidad inicial de políticas: 7": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cantidad inicial de políticas: 7": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Cantidad inicial de políticas: 7": true
+				}
+			]
+		},
+		{
+			"id": "a06447d7-c6cd-47b7-bc99-cf9aad413c1d",
+			"name": "Get policiy by id",
+			"url": "http://localhost:8080/policies/get/1",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Política tiene todas las propiedades": true,
+				"Política tiene datos ingresados": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Política tiene todas las propiedades": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Política tiene datos ingresados": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Política tiene todas las propiedades": true,
+					"Política tiene datos ingresados": true
+				}
+			]
+		},
+		{
+			"id": "d93c53fd-68a8-4993-9fa8-8b523bccfdf2",
+			"name": "Save policy",
+			"url": "http://localhost:8080/policies/save",
+			"time": 139,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code es 200": true,
+				"Política nueva tiene datos ingresados": true
+			},
+			"testPassFailCounts": {
+				"Status code es 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Política nueva tiene datos ingresados": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				139
+			],
+			"allTests": [
+				{
+					"Status code es 200": true,
+					"Política nueva tiene datos ingresados": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1557,
+	"collection": {
+		"requests": [
+			{
+				"id": "27ebebb4-33db-4238-9db5-5453f6392e56",
+				"method": "GET"
+			},
+			{
+				"id": "2ea3e662-9f5b-4620-a502-f866b0e0c3e3",
+				"method": "POST"
+			},
+			{
+				"id": "538ff722-4976-4461-bbd7-838c848525c8",
+				"method": "GET"
+			},
+			{
+				"id": "0640df2b-f5fc-4971-bba6-d6365cb8ea06",
+				"method": "GET"
+			},
+			{
+				"id": "ae2764b4-1508-442f-b994-c4af49e7e05b",
+				"method": "GET"
+			},
+			{
+				"id": "3e455a41-f530-4073-87ff-9c375a1236a2",
+				"method": "POST"
+			},
+			{
+				"id": "e59940dc-d7c3-4c0a-98a7-efd0b3b37342",
+				"method": "PUT"
+			},
+			{
+				"id": "7842d5d4-fbb7-493d-a08e-0c6e621a27f4",
+				"method": "DELETE"
+			},
+			{
+				"id": "f10294bd-f5cc-419a-8dcc-007d70e5f46c",
+				"method": "GET"
+			},
+			{
+				"id": "ecc349a1-b7ef-48f7-8899-2a74ccf7520c",
+				"method": "GET"
+			},
+			{
+				"id": "e594a7e9-59ab-4ed3-8a94-7ba7f00347c3",
+				"method": "GET"
+			},
+			{
+				"id": "3afe84dd-fcaa-4268-aa82-6f29ce920704",
+				"method": "GET"
+			},
+			{
+				"id": "ed6a91bf-84a0-4c93-822e-7732b013c62c",
+				"method": "POST"
+			},
+			{
+				"id": "62a22eae-20be-4c9b-895e-00382306df36",
+				"method": "GET"
+			},
+			{
+				"id": "ec7d20d5-74de-4397-9d9d-cfa4935c2eed",
+				"method": "GET"
+			},
+			{
+				"id": "70e3b909-91ca-42f7-9eb8-568fb0de177d",
+				"method": "GET"
+			},
+			{
+				"id": "c40a5631-f8a7-4241-96ad-d0ef898ddeb7",
+				"method": "GET"
+			},
+			{
+				"id": "e7ec8adb-2c36-4433-a6da-f9b1b23b5704",
+				"method": "POST"
+			},
+			{
+				"id": "a798e2b0-30c6-418c-afe2-a2b989ba6906",
+				"method": "GET"
+			},
+			{
+				"id": "93c7f66e-05aa-4d3f-8f51-df31692af67f",
+				"method": "GET"
+			},
+			{
+				"id": "6139b515-0b80-486a-8e95-0f9944b23fad",
+				"method": "POST"
+			},
+			{
+				"id": "a3c5aabe-ada7-4116-842a-f398910789e9",
+				"method": "GET"
+			},
+			{
+				"id": "a06447d7-c6cd-47b7-bc99-cf9aad413c1d",
+				"method": "GET"
+			},
+			{
+				"id": "d93c53fd-68a8-4993-9fa8-8b523bccfdf2",
+				"method": "POST"
+			}
+		]
+	}
+}
